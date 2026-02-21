@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keron Sweeney | Storyboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <div class="brand">
+        <div class="brand-badge" aria-label="Logo">KS</div>
+        <div>
+          <div class="brand-title">Keron Sweeney</div>
+          <div class="brand-sub">Storyboard</div>
+        </div>
+      </div>
+
+      <nav class="navlinks" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="report.html">AI Report</a>
+        <a href="storyboard.html">Storyboard</a>
+        <a href="references.html">References</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding: 34px 0 50px;">
+    <section class="panel">
+      <h1 style="margin-top:0;">Storyboard & UI Planning</h1>
+
+      <div class="grid-3">
+        <article class="card">
+          <h3>Mobile Layout (min 600px)</h3>
+          <p>
+            <strong>Header:</strong> Logo + site title (brand).<br/>
+            <strong>Navigation:</strong> Links wrap to the next line if needed.<br/>
+            <strong>Hero:</strong> Heading + short introduction + call-to-action buttons.<br/>
+            <strong>Profile:</strong> Circular profile image + demographic details.<br/>
+            <strong>Content sections:</strong> Vision & Mission, Personality cards, Mentor/Hero section, AI Report summary, Twelve Pillars link.<br/>
+            <strong>Favourites:</strong> Table section (scrolls horizontally if needed).<br/>
+            <strong>Contact:</strong> Email + GitHub + internal bookmark link (#contact).<br/>
+            <strong>Footer:</strong> Copyright and short site info.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Desktop Layout (min 950px)</h3>
+          <p>
+            <strong>Header:</strong> Logo/title on the left, navigation links on the right (single row).<br/>
+            <strong>Hero split grid:</strong> Left side contains heading and introduction; right side contains the profile card and image.<br/>
+            <strong>Cards:</strong> Personality section displays as a 3-column grid.<br/>
+            <strong>Panels:</strong> Vision/Mission and Mentor/Hero sections display as panel blocks with text + image (split layout).<br/>
+            <strong>Favourites:</strong> Table is centered and stays within a max width for a clean look.<br/>
+            <strong>Footer:</strong> Full width footer with muted text.          
+          </p>
+        </article>
+
+        <article class="card">
+         <h3>Div Groups Used (UI Structure)</h3>
+         <p>
+           <strong>Main container:</strong> <code>div.container</code> centers content.<br/>
+           <strong>Navigation bar:</strong> <code>header.site-header</code> and <code>nav.navlinks</code>.<br/>
+           <strong>Hero layout:</strong> <code>section.hero</code> and <code>div.hero-grid</code>.<br/>
+           <strong>Sections:</strong> <code>section.section</code> with <code>header.section-head</code>.<br/>
+           <strong>Cards:</strong> <code>div.grid-3</code> containing <code>article.card</code>.<br/>
+           <strong>Split layout:</strong> <code>div.split</code> (text + image).<br/>
+           <strong>Table wrapper:</strong> <code>div.table-wrap</code> to control width and responsiveness.
+         </p>
+       </article>
+     </div>
+
+        <h2>Icons and Dimensions</h2>
+        <ul class="clean">
+          <li><strong>Logo style:</strong> Square badge with rounded corners</li>
+          <li><strong>Logo size:</strong> 44px × 44px</li>
+          <li><strong>Profile image:</strong> Circular crop</li>
+          <li><strong>Profile image size:</strong> 176px × 176px</li>
+          <li><strong>Section images:</strong> Landscape format inside <code>.media</code> container</li>
+          <li><strong>Recommended section image size:</strong> 1200px × 800px (or similar ratio)</li>
+        </ul>
+
+        <article class="card">
+          <h3>CSS Decisions</h3>
+          <p>
+            Font-family: system-ui<br/>
+            Root font-weight: 400–850<br/>
+            Border radius: 18px<br/>
+            Spacing: 10–44px
+          </p>
+        </article>
+      </div>
+
+      <hr class="sep" />
+
+      <h2>Colour Palette (with RGB)</h2>
+      <p class="lead">
+        <strong>Background:</strong> rgb(7, 22, 43)<br/>
+        <strong>Panels/Cards:</strong> rgb(11, 35, 68)<br/>
+        <strong>Accent (Links/Buttons):</strong> rgb(65, 201, 255)<br/>
+        <strong>Accent Light:</strong> rgb(139, 225, 255)<br/>
+        <strong>Text:</strong> rgb(255, 255, 255)<br/>
+        <strong>Muted Text:</strong> rgba(255, 255, 255, 0.78)      
+      </p>
+
+       <p class="lead">  
+      </p>
+
+      <div class="card">
+        <img src="Assets/Color palette.png" style="width:500px; display:block; margin:auto;"> 
+     alt="Colour palette image showing RGB values, icons, and dimensions used in the portfolio" />
+      </div>
+
+      <hr class="sep" />
+
+      <h2>Links</h2>
+      <ul class="clean">
+        <li>
+          <strong>GitHub Repository:</strong>
+          <p>
+    <strong>GitHub Repository:</strong>
+    <a href="https://github.com/KeronSweeney-Computing/2409388_IA1_S1AY26" target="_blank">
+      View My GitHub Repository
+        </li>
+        <li>
+          <p>
+    <strong>Free Hosting Link:</strong>
+    <a href="https://keronsweeney-computing.github.io/2409388_IA1_S1AY26/" target="_blank">
+      View My Live Website>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2026 Keron Sweeney • Storyboard Page</small>
+    </div>
+  </footer>
+</body>
+</html>
